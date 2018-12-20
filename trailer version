@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>TRAILER VERSION</title>
+<!--<link rel="stylesheet" type="text/css" href="styles.css" media="screen">-->
+<link rel="stylesheet" type="text/css" href="stylestrailerprgrm.css" media="screen">
+<style>
+
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+     
+                 <header>
+                         <h2>COMPANY NAME &  LOGO</h2>
+                  </header>
+               <div class="desktopnavigation">
+			       <nav>
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+							<li><a href="#">COMPANY PROFILE</a>
+							       <ul>
+								         <li><a href="#">VISION& VALUES</a></li>
+										 <li><a href="#">COMPANY </a></li>
+                                    </ul>								
+							</li>
+                            <li><a href="#">PROJECTS </a></li>
+                            <li><a href="#">CAREER </a>
+							     <ul>
+								     <li><a href="#">WHY THIS </a></li>
+									 <li><a href="#">CURRENT OPENINGS </a></li>
+								 </ul>
+							</li>	 
+                            <li><a href="#">CLIENTS </a></li>
+                            <li><a href="#">SERVICES </a>
+							      <ul>
+								      <li><a href="#">EXPERTISE </a></li>
+									  <li><a href="#">OFFERING </a></li>
+								  </ul>
+							</li>
+							<li><a href="#">CONTACT US </a></li>
+                        </ul>
+					</nav>
+               </div>					
+ 
+ <!-- responsive code-->
+   <input type="checkbox" class="menucheck" id="menu">
+   <label for="menu" class="menuicon">&#9776;</label>
+       <div class="navigationmobile">
+	        <div class="item">
+				  <a class="item1" href="#">HOME </a>			 	  
+			</div>
+			<br>
+			<div class="item">
+			     <input type="checkbox" id="item2">
+				 <label for="item2">COMPANY PROFILE</label>
+				   <ul>
+				        <li><a href="#">VISION &VALUES </a><li>
+						 <li><a href="#">COMPANY </a><li>
+				   </ul>
+			</div>
+			<br>
+			<div class="item">
+			     <input type="checkbox" id="item3">
+				 <label for="item3">PROJECTS</label>
+				   <ul>
+				        <li><a href="#"> </a><li>
+						 <li><a href="#"> </a><li>
+				   </ul>
+			</div>
+			<br>
+			<div class="item">
+			     <input type="checkbox" id="item4">
+				 <label for="item4">CAREER</label>
+				   <ul>
+				        <li><a href="#"> WHY THIS</a><li>
+						 <li><a href="#"> CURRENT OPENINGS </a><li>
+				   </ul>
+			</div>
+			<br>
+			<div class="item">
+				  <a class="item5" href="#">CLIENTS </a>			 	  
+			</div>
+			
+			<br>
+				<div class="item">
+			     <input type="checkbox" id="item6">
+				 <label for="item6">SERVICES</label>
+				   <ul>
+				        <li><a href="#"> EXPERTISE</a><li>
+						 <li><a href="#"> OFFERING </a><li>
+				   </ul>
+			</div>
+			<br>
+			<div class="item">
+				  <a class="item7" href="#">CONTACT US </a>			 	  
+			</div>
+		</div>
+ 
+ 
+ 
+</div>
+</body>
+</html>
