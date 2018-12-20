@@ -1,0 +1,185 @@
+/* code is for nav bar setting */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html{
+height:100%;
+
+
+}
+.wrapper{
+	min-height:100%;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+body{
+	height:100%;
+	background-color:tomato;
+	min-height:100%;
+	width:100%;
+	padding-left:20px ;
+	padding-right:20px;
+	
+	
+
+}
+
+h2{
+	padding:20px;
+	background-color:white;
+	color:black;
+	text-align:center;
+	letter-spacing:8pt;	
+}
+
+.desktopnavigation{
+	background:white;
+}
+nav{
+	height:40px;
+	width:1400px;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	
+}
+nav a{
+	display:block;
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	font-size:11pt;
+	
+}
+nav a:hover{
+	background:blue;
+    color:white;
+	text-decoration:none;
+}
+nav ul{
+list-style-type:none;
+}
+nav ul li{
+	float:left;
+	width:180px;
+	height:40px;
+	line-height:40px;
+	background:white;
+}
+nav ul ul li{
+	position:relative;
+	display:none;
+}
+nav ul li:hover ul li{
+	display:block;
+}
+@keyframes navmenu{
+	0%{
+		opacity:0;
+		top:5px;
+	}
+	100%{
+		opacity:1;
+	top:0px;}
+}
+/* code is for nav bar setting */
+
+/*code for navbar with mobilisation*/
+
+.menuicon, .menucheck,.navigationmobile{
+	display:none;
+}
+@media screen and (max-width:600px){
+	h2{
+		padding:30px;
+		text-align:right;
+		font-size:20pt;
+		letter-spacing:11px;
+		
+}
+.desktopnavigation, .navigationmobile{
+	display:none;
+}
+.menucheck:checked ~ .navigationmobile {
+	display:block;
+}
+
+.menuicon{
+	display:block;
+	position:absolute;
+	top:80px; left:10px;
+	color:tomato;
+	font-size:20pt;
+	padding:3px;
+	cursor:pointer;
+}
+.item input{
+	display:none;
+}
+.item label ,.item1 {
+	text-align:center;
+	display:block;
+	padding:10px;
+	background-color:white;
+	font-size:12pt;
+	color:black;
+	cursor:pointer;
+	border-bottom:solid  1px #eee;
+}
+.item5 ,.item7{
+	text-align:center;
+	display:block;
+	padding:10px;
+	background-color:white;
+	font-size:12pt;
+	color:black;
+	cursor:pointer;
+	border-bottom:solid  1px #eee;	
+}
+.item1 ,.item5 ,.item7{
+	font-weight:bold;
+}
+.item ul{
+	list-style-type:none;
+}
+.item a{
+	text-decoration:none;
+}
+.item label:hover, .item1:hover {
+	background:blue;
+	color:white;
+}
+.item5:hover , .item7:hover {
+	background:blue;
+	color:white;
+}
+.item ul{
+max-height:0;
+overflow:hidden;
+text-align:center;
+transition:all .2s
+}
+.item ul li  a{
+	background:white;
+	color:black;
+	display:block;
+	text-decoration:none;
+	border-bottom: 1px solid black;
+	padding:10px;
+}
+.item ul li  a:hover{
+	background:blue;
+}
+.item input:checked ~ ul{
+	max-height:400px;
+	transition: all .2s;
+}
+	footer{
+		position:fixed;
+		bottom:0px;
+		
+
+}
